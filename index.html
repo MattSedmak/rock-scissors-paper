@@ -12,16 +12,17 @@
 <body>
   <div class="game_container">
 
-    <label for="player_choice">Player:</label>
-    <select name="player_choice" id="player_choice">
-      <option value="rock">Rock</option>
-      <option value="paper">Paper</option>
-      <option value="scissors">Scissors</option>
-    </select>
 
-    <p>Computer: </p>
-    <p id="com_result"></p>
-    <button type="button" id="playBtn">Play!</button>
+    <div class="player-options">
+      <p>Choose your option: <span id="player-option"></span></p>
+      <button type="button" class="btn" id="rock">Rock</button>
+      <button type="button" class="btn" id="scissors">Scissors</button>
+      <button type="button" class="btn" id="paper">Paper</button>
+    </div>
+
+    <p>Computer chose: <span id="com_result"></span></p>
+
+
   </div>
   <div class="winnerContainer">
     <p id="gameResult"></p>
