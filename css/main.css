@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(255, 248, 240);
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin: 20px 0;
+}
+.player-options {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn {
+  font-size: 2rem;
+  background-color: inherit;
+  border: none;
+  outline-color: teal;
+  padding: 5px 10px;
+  margin-left: 20px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+.player-buttons {
+  margin-bottom: 30px;
+}
+
+.result-container {
+  margin-top: 10px;
+}
+.game-result {
+  font-weight: 600;
+}
