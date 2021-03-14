@@ -19,7 +19,6 @@ function playGame(e) {
 
   let playerChoice = e.target.id;
   let gameResult = document.querySelector(".game-result");
-  // gameResult.innerHTML = "";
 
   document.getElementById("com-result").innerHTML =
     "Computer: " + computerChoice;
