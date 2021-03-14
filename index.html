@@ -6,27 +6,29 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rock, Scissor, Paper</title>
+  <link rel="stylesheet" href="css/simple-grid.css">
+  <link rel="stylesheet" href="css/main.css">
   <script src="js/main.js"></script>
 </head>
 
 <body>
-  <div class="game_container">
-
-
-    <div class="player-options">
-      <p>Choose your option: <span id="player-option"></span></p>
-      <button type="button" class="btn" id="rock">Rock</button>
-      <button type="button" class="btn" id="scissors">Scissors</button>
-      <button type="button" class="btn" id="paper">Paper</button>
+  <div class="container">
+    <h1>Rock – Scissors – Paper</h1>
+    <div class="row">
+      <div class=" col-12 player-options">
+        <div class="player-buttons">
+          <div>
+            <button type="button" class="btn" id="rock">&#9994;</button>
+            <button type="button" class="btn" id="scissors">&#9996;</button>
+            <button type="button" class="btn" id="paper">&#129306;</button>
+          </div>
+        </div>
+        <div><span id="com-result"></span></div>
+        <div class="result-container">
+          <p class="game-result"></p>
+        </div>
+      </div>
     </div>
-
-    <p>Computer chose: <span id="com_result"></span></p>
-
-
-  </div>
-  <div class="winnerContainer">
-    <p id="gameResult"></p>
-  </div>
 
 </body>
 
